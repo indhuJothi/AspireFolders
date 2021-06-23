@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+    position: relative;
+}
+.mainclass p{
+	color:red;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+    font-style: italic;
+}
+main.container{
+    margin:0 auto;
+    /*padding:16px;*/
+    max-width: 100%;
+    width: 1000px;
+
+}
+.mainclass{
+    text-align: center;
+}
+
+
+
+.bn1{
+    width:100%;
+     background-color: red;
+    
+
+}
+.bn{
+	scroll-behavior: left;
+
+	font-size: 50px;
+	font-style:italic;
+	font-weight: bold;
+	color:black;
+   
+}
+.shortnews ul li:before{
+    position: absolute;
+    top: 6px;
+    left: 0;
+    content:"";
+    border-radius: 100%;
+    background: #a00606;
+    height: 5px;
+    width: 5px;
+}
+
+
+
+.container nav
+{
+    
+    flex: 1;
+    text-align: right;
+    border-top:2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background-color: grey;
+    padding: 10px;
+}
+.container nav ul 
+{
+    display:flex;
+   align-items: center;
+    padding: 0;
+    list-style-type: none;
+  justify-content: center;
+}
+.container nav ul li
+{
+   margin: 0 2rem;
+}
+.container nav a
+{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+      color:black;
+      
+}
+
+.container nav ul li a:hover
+{
+    color: aqua;
+}
+.row{
+    display: flex;
+}
+.col{
+    padding-bottom: 1rem;
+    flex: 1;
+    padding-right: 10px;
+}
+.col:not(:last-child){
+    border-right: 2px;
+}
+
+
+h3{
+    margin: 10px;
+}
+
+img{
+    max-width: 70%;
+}
+video{
+    width:250px;
+    height:250;
+}
+main p{
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+.shortnews #h31{
+   color:white;
+   margin-left:150px;
+    padding: 2px;
+    display: block;
+     box-sizing: border-box;
+    border:2px solid grey;
+    width: 70px;
+    background-color: #a00606;}
+
+
+}
+.shortnews nav{
+  
+    border:5px;
+    border-radius: 3px grey;
+
+}
+.main2 .shortnews nav ul li {
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+.main2 .shortnews nav ul li a{
+    padding: 15px;
+    display: block;
+    width: 100%;
+    max-width:500px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    border-top:1px solid grey;
+    padding-right: 5px;
+    margin-left: 10px;
+
+}
+.shortnews2{
+    float:top;
+   }
+
+.main2{
+    
+    display: flex;
+
+}
+
