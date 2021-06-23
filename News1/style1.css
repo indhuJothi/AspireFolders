@@ -1,0 +1,229 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Opensans-Regular;
+}
+body{
+    position: relative;
+    width:100%;
+
+}
+.mainclass #MenuItems .title{
+    
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Opensans-Regular;
+}
+
+.logo{
+  max-width: 100%;
+}
+.mainclass nav
+{
+    
+    flex: 1;
+    padding:1px;
+}
+.mainclass nav ul 
+{
+    display:flex;
+   align-items: center;
+    padding: 0;
+    list-style-type: none;
+  justify-content: center;
+}
+
+.mainclass nav ul li
+{
+    text-transform: uppercase;
+   margin: 0 2rem;
+   padding-right: 50px;
+}
+.mainclass nav ul li a
+{
+    text-decoration:none;
+    font-size: 20px;
+    font-family: sans-serif;
+  
+    box-sizing:border-box; 
+  
+}
+
+
+.mainclass nav ul li a:hover
+{
+
+    color: yellow;
+}
+
+.mainclass{
+    text-align: center;
+}
+.circle{
+  width:8px;
+  height:8px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+  background-color: red;
+
+}
+@keyframes pulse{
+  0%{
+    transform: scale(0.9);
+    box-shadow: 0 0 0 2px rgba(244, 0, 0, 0);
+  }
+  70%
+  {
+    transform: scale(1);
+    box-shadow: 0 0 0 3px rgba(244, 0, 0, 0.2);
+  }
+  100%{
+    transform: scale(0.9);
+    box-shadow: 0 0 0 2px rgba(244, 0, 0, 0);
+  }
+}
+
+
+
+.bn1{
+    width:100%;
+     background-color: red;
+    
+
+}
+.bn{
+	scroll-behavior: left;
+
+	font-size: 50px;
+	font-style:italic;
+	font-weight: bold;
+	color:black;
+   
+}
+.container nav
+{
+    
+    flex: 1;
+    text-align: right;
+    border-top:2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background-color: grey;
+    padding: 10px;
+}
+.container nav ul 
+{
+    display:flex;
+   align-items: center;
+    padding: 0;
+    list-style-type: none;
+  justify-content: center;
+}
+.container nav ul li
+{
+   margin: 0 2rem;
+}
+.container nav a
+{
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+      color:black;
+
+      
+}
+
+.container nav ul li a:hover
+{
+    color: aqua;
+}
+.main{
+    padding-left:5%;
+    width: 70%;
+}
+p{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#MenuItems .feed{
+  color: yellow;
+}
+.title{
+  
+    font-weight: bold;
+    text-transform: uppercase;
+     font-family: Opensans-Regular;
+
+}
+.img p{
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+}
+#btnScrollToTop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: black;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+#btnScrollToTop:active{
+  background-color: aqua;
+}
+
+.mySlides {display: none;
+width: 900px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text a p{
+  color:black;
+  font-size: 30px;
+  padding: 8px 12px;
+  /*text-align: justify;*/
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dots{
+  text-align:center;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+ 
+ 
+}
+
+.active {
+  background-color: #717171;
+}
+
+
